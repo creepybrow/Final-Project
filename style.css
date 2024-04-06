@@ -17,8 +17,8 @@ nav{
     max-width: 1200px;
     margin:0 auto;
 }
-img{
-    display: flex;
+.T__logo{
+    
     justify-content: center;
     align-items: center;
     height:40px;
@@ -79,11 +79,16 @@ p{
     margin-right:300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Trusted__img{
-    position:absolute;
-    margin-right: 850px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 700px;
     height:24px;
     opacity: 0.8;
 }
@@ -100,6 +105,13 @@ figure{
     display: flex;
     height:25px;
 }
+.trusted__Customer__container{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 /*Features section*/
 #Features{
     font-size: 16px;
@@ -115,9 +127,6 @@ figure{
     width:100%;
     max-width: 1200px;
     margin:0 auto;
-}
-.img__container--wrapper{
-    width:calc(100% / 1);
 }
 .Service__heading{
     display: flex;
@@ -154,9 +163,6 @@ figure{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 200px;
-    max-width: 100%;
-    width:800px;
     color:gray;
 }
 .services{
@@ -170,4 +176,9 @@ figure{
 .service__description{
     display: flex;
     flex-direction: column;
+}
+.service__description--para{
+    position:relative;
+display: flex;
+width:50%;
 }
